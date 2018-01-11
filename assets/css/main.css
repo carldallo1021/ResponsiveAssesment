@@ -1,0 +1,72 @@
+body {
+    font-family: raleway;
+}
+
+header nav {
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+header nav .navbar-collapse {
+    float: right;
+}
+
+header nav .navbar-title .navbar-brand {
+  color: black;
+}
+
+header nav .navbar-collapse ul li a {
+  color: black;
+}
+
+header .navbar .navbar-header button span {
+  border: 1px solid black;
+  transition: transform .2s;
+}
+
+@media only screen and (max-width: 767px) { 
+  header nav .navbar-collapse {
+    float: none;
+  }
+}
+
+.first-img {
+  height: 600px;
+  background-image: url("../img/firstImg.JPG");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-container, .fourth-container {
+  padding: 35px;
+}
+
+.second-container .first-column, .second-container .second-column, .fourth-container .f-first-column {
+  text-align: justify;
+}
+
+.second-img {
+  height: 600px;
+  background-image: url("../img/secondImg.JPG");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover  
+}
+
+.fourth-container .f-second-column img {
+  width: 100%;
+}
+
+footer {
+  background-color:gray;
+  height: 40px;
+}
+
+footer p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
